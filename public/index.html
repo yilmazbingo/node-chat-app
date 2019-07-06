@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chat App</title>
+    <link rel="icon" href="/img/favicon.png" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Dancing+Script|Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="  h-100">
+      <div class="row h-100 centered-form__box">
+        <div class="col col-lg-5 col-sm-12 mx-auto  mt-5">
+          <div class="card" style="width: 30rem;">
+            <img
+              src="./img/chat.png"
+              alt=""
+              class="card-img-top img-fluid image "
+              style="height:15rem"
+            />
+            <div class="card-body">
+              <form action="/chat.html" class="form-group ">
+                <h4 class="card-title appName text-center">CHIT CHAT</h4>
+                <div>
+                  <label for="username" class="ml-4 label">display name</label>
+                  <input
+                    class="form-control rounded-pill"
+                    type="text"
+                    name="username"
+                    placeholder="Display name"
+                    required
+                    id="username"
+                    autocomplete="off"
+                  />
+                </div>
+                <div>
+                  <label for="room" class="ml-4 label">room</label>
+                  <input
+                    class="form-control rounded-pill"
+                    type="text"
+                    name="room"
+                    placeholder="room name"
+                    required
+                    id="room"
+                  />
+                </div>
+
+                <button
+                  class="bg-black btn btn-block bg-dark text-white btn-primary mt-2 rounded-pill border border-white"
+                >
+                  Join
+                </button>
+              </form>
+              <h5 class="card-title text-center">CHIT CHAT</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <button class=" btn-block btn-red text-white">
+                WELCOME
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

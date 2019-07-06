@@ -1,0 +1,61 @@
+//do not use $ sign
+// $theme-colors: (
+//   "danger": $indigo,
+//   "primary": $purple
+// );
+@import "./chat";
+
+$theme-colors: (
+  "primary": #0074d9,
+  "danger": #ff4136,
+  "mainBlue": rgb(8, 8, 165),
+  "lightBlue": rgb(21, 121, 151),
+  "indigo": indigo,
+  "purple": purple,
+  "pink": pink,
+  "red": rgb(136, 12, 12),
+  "orange": orange,
+  "teal": teal,
+  "cyan": #00ffff,
+  "white": white,
+  "green": rgb(17, 224, 17),
+  "brown": rgb(204, 169, 14),
+  "black": black
+);
+// $enable-gradients: true;
+@import "./font-scss/fontawesome.scss";
+@import "./scss/bootstrap.scss";
+$colors: (
+  "blue": $blue,
+  "indigo": $indigo,
+  "purple": $purple,
+  "pink": $pink,
+  "red": $red,
+  "orange": $orange,
+  "yellow": $yellow,
+  "green": $green,
+  "teal": $teal,
+  "cyan": $cyan,
+  "white": $white,
+  "gray": $gray-600,
+  "gray-dark": $gray-800,
+  "black": black
+) !default;
+body {
+  background-image: url("/img/CARDImg.jpeg");
+  background-size: cover;
+}
+.container {
+  background-image: linear-gradient(to right, purple, yellow);
+
+  background-size: cover;
+}
+.image {
+  border: 0.3 solid rgba(145, 54, 54, 0.5);
+}
+.label {
+  font-family: "Dancing Script", cursive;
+}
+.appName {
+  font-family: "Permanent Marker", cursive;
+}

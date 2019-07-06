@@ -1,0 +1,48 @@
+$theme-colors: (
+  "primary": #0074d9,
+  "danger": #ff4136,
+  "mainBlue": rgb(8, 8, 165),
+  "lightBlue": rgb(21, 121, 151),
+  "indigo": indigo,
+  "purple": purple,
+  "pink": pink,
+  "red": rgb(94, 13, 13),
+  "orange": orange,
+  "teal": teal,
+  "cyan": #00ffff,
+  "white": white,
+  "green": rgb(17, 224, 17),
+  "brown": rgba(226, 128, 15, 0.973),
+  "black": black,
+  "beige": rgba(243, 165, 21, 0.884)
+);
+
+@import "../scss/bootstrap.scss";
+@import "../font-scss/fontawesome.scss";
+
+body {
+  background-color: pink;
+}
+.compose {
+  bottom: 0;
+  position: absolute;
+}
+.footer {
+  position: fixed !important;
+  height: 100px !important;
+  bottom: 0 !important;
+  width: 100% !important;
+}
+.chat {
+  background-image: url("/img/chat.jpg");
+  background-size: cover;
+}
+.userstitle {
+  font-family: "Permanent Marker", cursive;
+}
+.chat-side {
+  background-image: url("/img/sidebar.jpg");
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
